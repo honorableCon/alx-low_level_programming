@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	char error_message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fwrite(error_message, (sizeof(char)*strlen(error_message)), 1, stderr);
+	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	fwrite(msg, (sizeof(char) * strlen(msg)), 1, stderr);
 
 	return (1);
 }
