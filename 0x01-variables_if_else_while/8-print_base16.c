@@ -11,7 +11,8 @@ int main(void)
 
 	for (i = 0x0; i < 0xA; i++)
 		putchar('0' + i);
-	putchar('A');
+	for (i = 0; i < 6; i++)
+		putchar('a' + i);
 	putchar('\n');
 
 	return (0);
