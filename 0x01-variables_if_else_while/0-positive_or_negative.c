@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Print positive, zero, negative if n respectively gt 0, eq 0, lt 0
+ *
+ * Return: 0 if execution success
+ */
 int main(void)
 {
 	int n;
