@@ -16,6 +16,6 @@ void print_to_98(int n)
 		_putchar(' ');
 	}
 
-	_putchar((char)98);
+	_putchar('0' + 12);
 	_putchar('\n');
 }

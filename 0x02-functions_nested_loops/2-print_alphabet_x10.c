@@ -1,15 +1,16 @@
 #include "main.h"
 
-
+/**
+ * print_alphabet_x10 - Prints alphabets 10x
+ *
+ */
 void print_alphabet_x10(void)
 {
-	int i;
+	int i, j;
 
-	for(i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		int j;
-
-		for(j = 0; i < 26; j++)
+		for (j = 0; j < 26; j++)
 		{
 			_putchar('a' + j);
 		}
