@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
+ * _islower - writes the character c to stdout
  * @c: The character to test
  *
  * Return: 1 If c is lowercase.
