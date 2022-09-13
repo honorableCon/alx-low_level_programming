@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * main - Prints alphabets
+ * main - check the code.
  *
- * Return: 0 if success
+ * Return: Always 0.
  */
 int main(void)
 {
-	print_alphabet();
-	return (0);
+    print_alphabet_x10();
+    return (0);
 }
