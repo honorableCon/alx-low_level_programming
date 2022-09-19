@@ -15,7 +15,7 @@ void print_rev(char *s)
 	while (*strcopied++)
 		length++;
 
-	while (length >= 0)
+	while (length > 0)
 	{
 		strcopied = s + length;
 		_putchar(*strcopied);
