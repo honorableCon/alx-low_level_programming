@@ -10,7 +10,12 @@
 
 void print_array(int *a, int n)
 {
+	n = (n <= 0 ? 0 : n);
+
 	*(a + (n * sizeof(char))) = '\0';
+
+	if (n == 0)
+		printf("\n");
 
 	while (*a)
 	{
