@@ -12,13 +12,16 @@ void print_rev(char *s)
 	int length = 0;
 	char *strcopied = s;
 
-	while (*strcopied++)
+	while (*++strcopied)
 		length++;
 
-	while (length > 0)
+	while (length >= 0)
 	{
-		strcopied = s + length;
-		_putchar(*strcopied);
+		char c = *(s + length);
+
+		if (c != '\0')
+			_putchar(c);
+
 		length--;
 	}
 	_putchar('\n');
