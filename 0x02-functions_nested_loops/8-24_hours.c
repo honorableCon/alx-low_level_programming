@@ -1,27 +1,21 @@
 #include "main.h"
 
+/**
+ * jack_bauer - Prints time
+ *
+ */
 void jack_bauer(void)
 {
-	int i, j, k, l;
+	int i, j;
 
-	for(i = 0; i <= 2; i++)
-	{
-		_putchar('0' + i);
-		for(j = 0; j <= 3; j++)
+	for (i = 0; i <= 23; i++)
+		for (j = 0; j <= 59; j++)
 		{
-			_putchar('0' + j);
+			_putchar(i / 10 + '0');
+			_putchar(i % 10 + '0');
 			_putchar(':');
-
-			for(k = 0; k <= 5; k++)
-			{
-				_putchar('0' + k);
-
-				for(l = 0; l <= 9; l++)
-				{
-					_putchar('0' + l);
-					_putchar('\n');
-				}
-			}
+			_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
+			_putchar('\n');
 		}
-	}
 }
