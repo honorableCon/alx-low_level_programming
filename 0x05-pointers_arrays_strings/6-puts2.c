@@ -12,8 +12,12 @@ void puts2(char *str)
 {
 	while (*str)
 	{
-		if ((int)(*str) % 2 == 0)
+		if (*str)
 			_putchar(*str);
+
+		if (*++str == '\0')
+			break;
+
 		str++;
 	}
 	_putchar('\n');
