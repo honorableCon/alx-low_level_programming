@@ -4,7 +4,7 @@
 
 #define TARGET 2772
 #define MAX 90
-#define MIN 64
+#define MIN 33
 
 /**
  * main - generate keygen
