@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #define TARGET 2772
-#define MAX 90
+#define MAX 126
 #define MIN 33
 
 /**
